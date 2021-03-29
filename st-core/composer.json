@@ -1,0 +1,16 @@
+{
+     "autoload" :{
+          "psr-4":{
+               "lib\\":"lib/",
+               "core\\":"core/",
+               "Liquid\\":"core/Liquid/",
+               "database\\":"database/",
+			   "Facebook\\": "lib/Facebook/",
+			   "PHPMailer\\PHPMailer\\": "lib/PHPMailer"
+          },
+          "files":[
+               "config/config.php",
+			   "lib/Facebook/polyfills.php"
+          ]
+     }
+}
